@@ -1,0 +1,15 @@
+#my-heading {
+  color: blue;
+}
+
+#my-paragraph {
+  text-decoration: underline;
+}
+
+.green-paragraph {
+  color: green;
+}
+
+p {
+  font-size: 20px;
+}

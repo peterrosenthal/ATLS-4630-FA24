@@ -1,0 +1,62 @@
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+}
+
+fieldset {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  border-radius: 0.5em;
+  border-style: solid;
+  border-width: 0.2em;
+  gap: 0.25em;
+}
+
+label:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+button[type="submit"] {
+  margin-top: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+.reaction-area {
+  border-radius: 0.25em;
+  border-width: 0;
+  padding-inline: 0.5em;
+  padding-block: 0.1em;
+}
+
+.reaction-area.correct {
+  background-color: lightgreen;
+}
+
+.reaction-area.incorrect {
+  background-color: lightgoldenrodyellow;
+}
+
+#start-button {
+  align-self: start;
+}
+
+#final-score {
+  font-size: 1.5em;
+}

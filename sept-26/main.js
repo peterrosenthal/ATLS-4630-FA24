@@ -17,6 +17,8 @@ const debouncedScrollListener = _.debounce(scrollListener, 250);
 const throttledScrollListener = _.throttle(scrollListener, 250);
 
 window.addEventListener('scroll', scrollListener);
+// window.addEventListener('scroll', scrollListener);
+// window.addEventListener('scroll', throttledScrollListener);
 
 const populations = cities.map(city => city.Population);
 console.log(populations);

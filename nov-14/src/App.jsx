@@ -19,6 +19,7 @@ export default function App() {
   }
   */
 
+  // another very necessary comment
   return (
     <>
       <RefVsState />

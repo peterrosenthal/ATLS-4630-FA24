@@ -11,6 +11,7 @@ export default function App() {
 
   console.log(searchText)
 
+  // add a very necessary comment
   /*
   let effectExamples = null
   if (showEffectExamples) {
@@ -18,6 +19,7 @@ export default function App() {
   }
   */
 
+  // another very necessary comment
   return (
     <>
       <RefVsState />
